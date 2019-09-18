@@ -2,11 +2,58 @@ body {
   background-color: powderblue;
 }
 h1 {
-  color: blue;
+  color: black;
   padding: 5% 0 0 0; 
   margin: 0;
   text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:72px;
+  text-transform:uppercase;
+  letter-spacing:4px;
+  word-spacing:10px;
+  margin-bottom:20px;
+}
+h1 span{
+  font-family: 'Playball', cursive;
+  font-size:60px;
+  text-transform:lowercase;
+  position:relative;
+  top:-15px 
+  }
+h2{
+  margin:0;
+  padding:0 20px;
+  top:-12px;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:18px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+}
+h3 {
+  margin: 0 auto;
+  max-width: 45%;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform:uppercase;
+}
+h4{
+  margin: 0 auto;
+  max-width: 45%;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform:uppercase;
 }
 p {
-  color: red;
+  color: black;
+  font-family: 'Times New Roman';
+  margin: 0 auto;
+  max-width: 45%;
+  font-size:14px;
+}
+blockquote {
+  margin: 0 auto;
+  max-width: 45%
+}
+ol {
+  margin: 0 auto;
+  max-width: 45%;
 }
