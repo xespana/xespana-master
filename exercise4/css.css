@@ -8,9 +8,6 @@
 .content-asset p {
   margin: 0 auto;
 }
-.breadcrumb {
-  display: none;
-}
 
 .margin-top-10 {
   padding-top: 10px;
@@ -24,18 +21,19 @@
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
-  color: black;
+  color: #FD234B;
   padding: 0;
   margin: 0;
 }
 
 #interview h2 {
   font-family: "Oswald", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 0;
   font-weight: 400;
   text-transform: uppercase;
   color: black;
+  padding:20px;
 }
 #interview h3 {
   font-family: "Oswald", sans-serif;
@@ -69,9 +67,6 @@ i {
 
 .sc {
   color: #FD234B;
-}s
-.atw {
-  color: #c48660;
 }
 
 #interview .title {
