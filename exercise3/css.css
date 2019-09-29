@@ -35,12 +35,14 @@ h3 {
   max-width: 45%;
   font-family: 'Fjalla One', sans-serif;
   text-transform:uppercase;
+  font-size:25px;
 }
 h4{
   margin: 0 auto;
   max-width: 45%;
   font-family: 'Fjalla One', sans-serif;
   text-transform:uppercase;
+  font-size:20px;
 }
 p {
   color: black;
@@ -51,7 +53,7 @@ p {
 }
 blockquote {
   margin: 0 auto;
-  max-width: 45%
+  max-width: 40%
 }
 ol {
   margin: 0 auto;
@@ -61,5 +63,9 @@ strong {
 	background-color: yellow;
 }
 br {
-	 margin: 10px 0;
+	 margin: 1px 0;
+}
+li {
+  font-family: 'Fjalla One', sans-serif;
+  line-height: 40px;
 }
