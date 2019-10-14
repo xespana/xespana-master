@@ -6,13 +6,16 @@
   width: 100%;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 23px;
   transition: 0.4s;
   text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  border-bottom: 2px #222 solid;
 }
 
 .active, .accordion:hover {
-  text-decoration: underline;
+  text-decoration: none;
 
 }
 
@@ -21,4 +24,52 @@
   display: none;
   background-color: #F4EDE7;
   overflow: hidden;
+  margin:none;
+}
+.link{
+  position: relative;
+}
+
+.link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 0px;
+  right: 0;
+  background: black;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.link:hover:after{
+  width: 100%;
+  left: 0;
+  background: black;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
 }
