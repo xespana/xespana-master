@@ -38,8 +38,8 @@
   margin-top: 0px;
   right: 0;
   background: black;
-  transition: width .2s ease;
-  -webkit-transition: width .2s ease;
+  transition: width 1s ease-in-out;
+  -webkit-transition: width 1s ease-in-out;
 }
  
 .link:hover:after{
