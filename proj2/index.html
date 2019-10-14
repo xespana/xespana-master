@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body style="background-color: black;">
+
+<div id="images" style="width:100%; display:flex;">
+	<img src= "images/rose.jpg" style="width: 15%; height: 50%; position: relative; object-fit:cover;height: 50vh;object-position: 60% 60%;">
+  <img src= "images/winona.jpg" style="width: 35%; height: 40%; position: relative; object-fit:cover;height: 50vh; object-position: 
+  60% 50%;">
+  <img src="images/lb.jpg" style=" width: 50%; height:40%;position: relative;object-fit:cover;height: 45vh; object-position: 50% 2%; ">
+</div>
+<div id="images" style="width:100%; display:flex;">
+  <img src= "images/prec.jpg" style="width: 50%; height: 50%; position: relative; object-fit:cover;height: 50vh;object-position: 100% 40%;">
+  <img src= "images/c.jpg" style="width: 50%; top:-5vh; height: 90%; position: relative; object-fit:cover;height: 55vh;object-position: 30% 90%; ">
+  </div>
+
+<button class="accordion" style="  margin-top: -5vh; display:flex">1980</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">1990</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">2000</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
