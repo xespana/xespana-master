@@ -95,6 +95,7 @@ body {
 
 .gallery-image:hover {
   transform: scale(1.15);
+  
 }
 
 /*
@@ -171,33 +172,6 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-.decades {
-  margin:0;
-padding:0;
-
-}
-.deca {
-  height:50%;
-  width: 50%;
-  padding-top: 100px;
-}
-h1 {
-font-family: Josefin Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 280px;
-line-height: 28px;
-padding-left:100px;
-}
-p{
-  font-family: Josefin Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 28px;
-padding-left:800px;
-}
-
 
 @keyframes fade
 {
