@@ -77,8 +77,8 @@ body {
 }
 
 .gallery-item {
-  /* Minimum width of 24rem and grow to fit available space */
-  flex: 1 0 16rem;
+  /* Minimu24 width of 24rem and grow to fit available space */
+  flex: 1 0 24rem;
   /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
   margin: 0rem;
   box-shadow: none;
@@ -116,6 +116,61 @@ Remove or comment-out the code block below to see how the browser will fall-back
   .gallery-item {
     margin: 0;
   }
+  .gallery-item {
+    max-height: 240px;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: ease-in-out;
+  -webkit-animation-duration: 2.5s;
+  animation-name: ease-in-out;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
 
 @keyframes fade
