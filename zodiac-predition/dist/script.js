@@ -15,8 +15,10 @@ function showSign() {
   if (month == 1) {
     if (day <= 19) {
 
-      document.getElementById("capricorn").style.display = "block"
-     document.body.style.backgroundImage = url("images/green.jpg");
+      document.getElementById("capricorn").style.display = "block";
+      document.body.className = "test";
+
+      // document.body.style.backgroundImage = url("https://images.wallpaperscraft.com/image/space_universe_stars_galaxy_127329_2560x1080.jpg");
       //body will have a class named type 1
     } else if (day > 19) {
       document.getElementById("aquarius").style.display = "block"

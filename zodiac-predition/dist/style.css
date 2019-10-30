@@ -1,7 +1,12 @@
 body {
-  background: black url('http://blog.landisreedhomes.com/wp-content/uploads/2013/02/stars-aligned.jpg') no-repeat right top;
+  background: black;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
+}
+
+body.test {
+  background-image: url('images/green.jpg');
+  background-size: auto 100vh;
 }
 
 #dateEnter {
