@@ -1,0 +1,110 @@
+body {
+  background: black url('http://blog.landisreedhomes.com/wp-content/uploads/2013/02/stars-aligned.jpg') no-repeat right top;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#dateEnter {
+  color: white;
+  text-align: center;
+  margin-top: 350px;
+  line-height: 3;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#dateEnter h1 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    margin-left: -27%;
+}
+
+#dateEnter select {
+  color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    font-weight:700;
+    letter-spacing: 4px;
+}
+
+img {
+  height: 30%;
+  width: 30%;
+  margin: 20px 0 50px 0;
+  border: 2px solid #fff;
+}
+
+.zodiac {
+  text-align: center;
+  display: none;
+  margin: 2% auto;
+  width: 88%;
+  color: #333;
+}
+
+.zodiac h1 {
+  font-size: 70px;
+}
+
+.zodiac p {
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+#month {
+    width: 8%;
+    height: 50px;
+    font-size: 13pt;
+    padding: 20px 20px;
+    border: solid white;
+    border-radius: 4px;
+    color: white;
+    margin-right: 3px;
+}
+#day{
+    width: 8%;
+    height: 50px;
+    font-size: 13pt;
+    padding: 30px 20px;
+    border: solid white;
+    border-radius: 4px;
+    color: white;
+    margin-right: 3px;
+    position: relative;
+}
+#submit {
+   background-color: #0038FF;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   letter-spacing: 4px;
+   margin-left: 30%;
+
+
+
+}
+
+
+footer {
+  color: #ccc;
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+}
+
+@media (max-width:400px) {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+}
