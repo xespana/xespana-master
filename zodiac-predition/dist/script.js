@@ -1,7 +1,6 @@
 //Hide user information
 function transition() {
-  document.getElementById("dateEnter").style.display = "none";
-  document.body.style.backgroundImage = "url('https://tse1.mm.bing.net/th?&id=OIP.M9be147e0c6c7a777bb34fc8926908bbfH0&w=300&h=199&c=0&pid=1.9&rs=0&p=0&r=0')";
+  document.getElementById("dateEnter").style.display = "none";//document.body.style.backgroundImage = "url('https://tse1.mm.bing.net/th?&id=OIP.M9be147e0c6c7a777bb34fc8926908bbfH0&w=300&h=199&c=0&pid=1.9&rs=0&p=0&r=0')";
   document.getElementById("footerText").style.color = "#666";
 }
 
@@ -15,9 +14,13 @@ function showSign() {
   transition()
   if (month == 1) {
     if (day <= 19) {
+
       document.getElementById("capricorn").style.display = "block"
+     document.body.style.backgroundImage = url("images/green.jpg");
+      //body will have a class named type 1
     } else if (day > 19) {
       document.getElementById("aquarius").style.display = "block"
+       //body will have a class named type 2
     }
   } else if (month == 2) {
     if (day <= 18) {
