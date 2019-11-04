@@ -12,18 +12,21 @@ body.test {
 #dateEnter {
   color: white;
   text-align: center;
-  margin-top: 350px;
+  margin-top: 320px;
   line-height: 3;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 #dateEnter h1 {
-  font-size: 20px;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+ font-family: 'Montserrat', sans-serif;
     letter-spacing: 4px;
-    margin-left: -27%;
+    margin-top: -30px;
+    margin-bottom:20px; 
+}
+// css example
+span {
+  content: "\21E9";
 }
 
 #dateEnter select {
@@ -39,6 +42,12 @@ img {
   width: 30%;
   margin: 20px 0 50px 0;
   border: 2px solid #fff;
+}
+.image1 {
+  border:none;
+  margin-top: -130px;
+  float:center;
+  margin-bottom: -75px;
 }
 
 .zodiac {
@@ -71,7 +80,6 @@ img {
     width: 8%;
     height: 50px;
     font-size: 13pt;
-    padding: 30px 20px;
     border: solid white;
     border-radius: 4px;
     color: white;
@@ -90,12 +98,8 @@ img {
    font-family: 'Montserrat', sans-serif;
    font-weight: 700;
    letter-spacing: 4px;
-   margin-left: 30%;
-
-
-
+   margin-top: 40px;
 }
-
 
 footer {
   color: #ccc;
