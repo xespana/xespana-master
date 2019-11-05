@@ -32,27 +32,27 @@ body.test6 {
 }
 body.test7 {
   background-image: url('images/grey.jpg');
-  background-size: auto 70vw;
+  background-size: cover 70vw;
 }
 body.test8 {
   background-image: url('images/leo.jpg');
-  background-size: auto 70vw;
+  background-size: cover 70vw;
 }
 body.test9 {
   background-image: url('images/green.jpg');
-  background-size: auto 70vw;
+  background-size: cover 70vw;
 }
 body.test10 {
   background-image: url('images/blue.jpg');
-  background-size: auto 70vw;
+  background-size: cover 70vw;
 }
 body.test11 {
-  background-image: url('images/magnet.jpg');
-  background-size: auto 70vw;
+  background-image: url('images/maga.jpg');
+  background-size: cover 70vw;
 }
 body.test12 {
   background-image: url('images/sag.jpg');
-  background-size: auto 70vw;
+  background-size: cover 70vw;
 }
 
 #dateEnter {
