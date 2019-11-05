@@ -22,11 +22,13 @@ function showSign() {
       //body will have a class named type 1
     } else if (day > 19) {
       document.getElementById("aquarius").style.display = "block"
+       document.body.className = "test2";
        //body will have a class named type 2
     }
   } else if (month == 2) {
     if (day <= 18) {
       document.getElementById("aquarius").style.display = "block"
+      document.body.className = "test2";
     } else if (day > 18) {
       document.getElementById("pisces").style.display = "block"
     }
