@@ -8,10 +8,50 @@ body {
 
 body.test {
   background-image: url('images/brown.jpg');
-  background-size: auto 200vh;
+  background-size: cover 200vh;
 }
 body.test2 {
   background-image: url('images/tteal.jpg');
+  background-size: cover 70vw;
+}
+body.test3 {
+  background-image: url('images/purple.jpg');
+  background-size: cover 70vw;
+}
+body.test4 {
+  background-image: url('images/red.jpg');
+  background-size: cover 70vw;
+}
+body.test5 {
+  background-image: url('images/taur.jpg');
+  background-size: cover 70vw;
+}
+body.test6 {
+  background-image: url('images/yel.jpg');
+  background-size: cover 70vw;
+}
+body.test7 {
+  background-image: url('images/grey.jpg');
+  background-size: auto 70vw;
+}
+body.test8 {
+  background-image: url('images/leo.jpg');
+  background-size: auto 70vw;
+}
+body.test9 {
+  background-image: url('images/green.jpg');
+  background-size: auto 70vw;
+}
+body.test10 {
+  background-image: url('images/blue.jpg');
+  background-size: auto 70vw;
+}
+body.test11 {
+  background-image: url('images/magnet.jpg');
+  background-size: auto 70vw;
+}
+body.test12 {
+  background-image: url('images/sag.jpg');
   background-size: auto 70vw;
 }
 
