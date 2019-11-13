@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Zodiac</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Mystery+Quest' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Luckiest+Guy|Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+  <!--Bootstraps-->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!--Custom Css -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style>
+    .zodiac {
+      width: 830px;
+      text-align:center;
+      margin:0 auto;
+      border: 1px red solid;
+      text-align: center;
+      display: none;
+    }
+
+    .thumb {
+      display: inline-block;
+      float:left;
+      margin: 0 5px;
+    }
+    .thumb p {
+      text-align: center;
+    }
+
+    .thumb:nth-of-type(4n+1) {
+      margin-left:0px;
+    }
+    .thumb:nth-of-type(4n) {
+      margin-right:0px;
+    }
+
+    img {
+      margin:0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="dateEnter">
+    <form>
+   <img src="images/zod.png" class="image1">
+      <div class="title"><h1><span>&#8681;</span>BIRTHDAY<span>&#8681;</span></h1></div>
+      <select id="day">
+          <option>DAY</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+      </select>
+
+      <select id="month">
+        <option>MONTH</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+    </form>
+    <button id="submit" class="btn btn-success" onClick="showSign()">FIND MY SIGN</button>
+    <br>
+  </div>
+  <!--Zodiac Sign Information -->
+
+    <div class="zodiac" id="aquarius">
+        <img src="images/aqua.png" class="symbol">
+        <h1>AQUARIUS</h1>
+        <h2>JANUARY 22 - FEBRUARY 19</h2>
+        <div class="thumb">
+          <img src="images/water.jpg" alt="Aquarius Symbol" style=" object-fit: cover; width: 200px; height: 200px;}">
+          <p>lorem</p>
+        </div>
+         <div class="thumb">
+          <img src="images/water.jpg" alt="Aquarius Symbol" style=" object-fit: cover; width: 200px; height: 200px;}">
+          <p>lorem</p>
+        </div>
+         <div class="thumb">
+          <img src="images/water.jpg" alt="Aquarius Symbol" style=" object-fit: cover; width: 200px; height: 200px;}">
+          <p>lorem</p>
+        </div>
+          <div class="thumb">
+          <img src="images/water.jpg" alt="Aquarius Symbol" style=" object-fit: cover; width: 200px; height: 200px;}">
+          <p>lorem</p>
+        </div>
+        <div class="thumb">
+          <img src="images/water.jpg" alt="Aquarius Symbol" style=" object-fit: cover; width: 200px; height: 200px;}">
+          <p>lorem</p>
+        </div>
+         <div class="thumb">
+          <img src="images/water.jpg" alt="Aquarius Symbol" style=" object-fit: cover; width: 200px; height: 200px;}">
+          <p>lorem</p>
+        </div>
+         <div class="thumb">
+          <img src="images/water.jpg" alt="Aquarius Symbol" style=" object-fit: cover; width: 200px; height: 200px;}">
+          <p>lorem</p>
+        </div>
+          <div class="thumb">
+          <img src="images/water.jpg" alt="Aquarius Symbol" style=" object-fit: cover; width: 200px; height: 200px;}">
+          <p>lorem</p>
+        </div>
+    </div>
+    
+  <br>
+  <footer>
+    <p id="footerText"></p>
+  </footer>
+
+
+  <script type="text/javascript" src="js/zodiac_display.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
