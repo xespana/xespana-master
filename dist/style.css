@@ -111,11 +111,19 @@ h1 {
   margin-bottom: 10px;
 
 }
+.colon{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  display:inline-block;
+  position:relative;
+  bottom:30px;
+}
 
 .days, .hours, .minutes, .seconds {
   display: inline-block;
   padding: 25px;
-  width: 150px;
+  width: 130px;
   border-radius: 5px;
   text-align: center;
 
