@@ -19,13 +19,41 @@ img:hover {
   animation: shake 0.2s;
   animation-iteration-count: infinite;
   }
+#sub {
+  font-size: 18px;
+  color:#FF0000;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  border-bottom: 4px solid;
+  width:63px;
+  font-weight: 500;
+}
+#loc {
+  font-size: 24px;
+  color:#FF0000;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+.button {
+  background-color: white;
+  border: solid #FF0000;
+  color: #FF0000;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .square {
     height: 2000px;
   width: 90%;
   background-color: #1736EA;
   margin-left: 5%;
   margin-top: -12%;
-
 }
 #ig {
 	writing-mode: vertical-rl;
@@ -117,8 +145,6 @@ h3 {
   font-size: 90px;
   text-transform: uppercase;
   color: white;
-  margin-top: -100%;
-  margin-left:35%;
   letter-spacing: 2px;
 }
 
