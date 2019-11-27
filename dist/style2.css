@@ -15,6 +15,18 @@ img {
   width: 50%;
   margin-top: -5%;
 }
+img:hover {
+  animation: shake 0.2s;
+  animation-iteration-count: infinite;
+  }
+.square {
+    height: 2000px;
+  width: 90%;
+  background-color: #1736EA;
+  margin-left: 5%;
+  margin-top: -12%;
+
+}
 #ig {
 	writing-mode: vertical-rl;
 text-orientation: mixed;
@@ -97,7 +109,17 @@ h1 {
   font-size: 130px;
   text-transform: uppercase;
   color: #1736EA;
-
+}
+h3 {
+   font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  text-align: left;
+  font-size: 90px;
+  text-transform: uppercase;
+  color: white;
+  margin-top: -100%;
+  margin-left:35%;
+  letter-spacing: 2px;
 }
 
 
@@ -121,4 +143,9 @@ footer a {
 }
 footer a:hover {
   color: #276FBF;
+}
+@keyframes shake {
+  0% { transform: rotate(0.5deg); }
+  50% { transform: rotate(-0.5deg); }
+  100% { transform: rotate(0.5deg); }
 }
