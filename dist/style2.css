@@ -34,6 +34,12 @@ img:hover {
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
 }
+#even {
+  font-size: 30px;
+  color:#FF0000;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
 .button {
   background-color: white;
   border: solid #FF0000;
@@ -49,7 +55,7 @@ img:hover {
   cursor: pointer;
 }
 .square {
-    height: 2000px;
+    height: 1500px;
   width: 90%;
   background-color: #1736EA;
   margin-left: 5%;
