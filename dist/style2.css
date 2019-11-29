@@ -40,6 +40,21 @@ img:hover {
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
 }
+#mess{
+font-size: 20px;
+  color:#FF0000;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+#add {
+  font-size: 30px;
+  color:#FF0000;
+  font-family: 'Rubik', sans-serif;
+  border-bottom: 10px solid;
+  width:300px;
+  height:40px;
+  font-weight: 500;
+}
 .button {
   background-color: white;
   border: solid #FF0000;
@@ -53,6 +68,19 @@ img:hover {
   font-weight: 500;
   margin: 4px 2px;
   cursor: pointer;
+}
+.send {
+  background-color: #FF0000;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100px;
+  height:50px;
 }
 .square {
     height: 1500px;
