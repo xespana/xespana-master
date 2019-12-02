@@ -24,7 +24,7 @@ img {
  transition: .3s all; 
   background-size: contain;
   margin-left: 8%;
-  margin-top: -45%;
+  margin-top: -90%;
  }
 
 .happy:hover {
@@ -38,7 +38,7 @@ img {
  .dog{
  display: block;
  height: 50% /* -- set image height -- */;
- width: 45%/* -- set image width -- */;
+ width: 33%/* -- set image width -- */;
  background: url(images/rd.jpg);
  background-repeat:no-repeat;
  transition: .3s all; 
@@ -53,6 +53,46 @@ img {
   background-size: contain;
   background-repeat:no-repeat;
    margin-left: 60%;
+ }
+.fest{
+ display: block;
+ height: 50% /* -- set image height -- */;
+ width: 33%/* -- set image width -- */;
+ background: url(images/blu.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 10%;
+  margin-top: -111%;
+ }
+
+.fest:hover {
+ background: url(images/man.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+   margin-left: 10%;
+ }
+ .pe{
+ display: block;
+ height: 50% /* -- set image height -- */;
+ width: 45%/* -- set image width -- */;
+ background: url(images/rs.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 50%;
+  margin-top: -30%;
+ }
+
+.pe:hover {
+ background: url(images/hotf.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 50%;
  }
 
 .text {
@@ -123,7 +163,7 @@ img {
   height:50px;
 }
 .square {
-    height: 1500px;
+    height: 3000px;
   width: 90%;
   background-color: yellow;
   margin-left: 5%;
