@@ -94,7 +94,86 @@ img {
   background-repeat:no-repeat;
   margin-left: 50%;
  }
+.tru{
+ display: block;
+ height: 45% /* -- set image height -- */;
+ width: 40%/* -- set image width -- */;
+ background: url(images/tb.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 52%;
+  margin-top: -52%;
+ }
 
+.tru:hover {
+ background: url(images/truck.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 52%;
+ }
+.las{
+ display: block;
+ height: 45% /* -- set image height -- */;
+ width: 40%/* -- set image width -- */;
+ background: url(images/dogg.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 7%;
+  margin-top: -80%;
+ }
+
+.las:hover {
+ background: url(images/hot.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 7%;
+ }
+ .f{
+ display: block;
+ height: 30% /* -- set image height -- */;
+ width: 27%/* -- set image width -- */;
+ background: url(images/hotb.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 7%;
+  margin-top: -56%;
+ }
+
+.f:hover {
+ background: url(images/hotdd.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 7%;
+ }
+  .b{
+ display: block;
+ height: 30% /* -- set image height -- */;
+ width: 45%/* -- set image width -- */;
+ background: url(images/br.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 43%;
+  margin-top: -46%;
+ }
+
+.b:hover {
+ background: url(images/bite.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 43%;
+ }
 .text {
   color: white;
   font-size: 20px;
@@ -106,6 +185,7 @@ img {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 
 #sub {
   font-size: 18px;
