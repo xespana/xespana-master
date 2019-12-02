@@ -15,24 +15,44 @@ img {
   width: 50%;
   margin-top: -5%;
 }
-a.happy{
+.happy{
  display: block;
  height: 40% /* -- set image height -- */;
  width: 45%/* -- set image width -- */;
- background: url(images/hott.jpg);
+ background: url(images/rh2.jpg);
  background-repeat:no-repeat;
  transition: .3s all; 
   background-size: contain;
   margin-left: 8%;
+  margin-top: -45%;
  }
 
-a.happy:hover {
- background: url(images/rh2.jpg);
+.happy:hover {
+ background: url(images/hott.jpg);
  transform: translateY(-5px) /* -- animate up on hover -- */;
  transition: .3s all; 
   background-size: contain;
   background-repeat:no-repeat;
    margin-left: 8%;
+ }
+ .dog{
+ display: block;
+ height: 50% /* -- set image height -- */;
+ width: 45%/* -- set image width -- */;
+ background: url(images/rd.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 60%;
+ }
+
+.dog:hover {
+ background: url(images/dog.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+   margin-left: 60%;
  }
 
 .text {
