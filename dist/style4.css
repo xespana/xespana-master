@@ -15,7 +15,22 @@ img {
   width: 50%;
   margin-top: -5%;
 }
-
+.dog {
+  width:800px;
+  height:420px;
+  background: url("images/rh.jpg");
+   background-repeat: no-repeat;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: 800px 420px;
+}
+.dog:hover{
+  width:800px;
+  height:420px;
+  background: url("images/fo.jpg");
+  background-size: 800px 420px;
+  background-repeat: no-repeat;
+}
 #sub {
   font-size: 18px;
   color:#FF0000;
