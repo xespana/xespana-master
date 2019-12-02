@@ -6,7 +6,7 @@ html {
 
 body {
   display: grid;
-  background: yellow;
+  background: #1736EA;
 }
 img {
 	display: block;
@@ -15,52 +15,38 @@ img {
   width: 50%;
   margin-top: -5%;
 }
-img:hover {
-  animation: shake 0.2s;
-  animation-iteration-count: infinite;
-  }
+
 #sub {
-    font-family: 'Rubik', sans-serif;
-  color:#FF0000;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 500;
- margin: auto;
-  width: 50%;
-  padding: 10px;
-  margin-top: -5%;
-}
-#loc {
-  font-size: 24px;
+  font-size: 18px;
   color:#FF0000;
   font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  border-bottom: 4px solid;
+  width:155px;
+  font-weight: 500;
+  padding-top: 80px;
+}
+#sub2 {
+  font-size: 18px;
+  color:white;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  border-bottom: 4px solid;
+  width:380px;
   font-weight: 500;
 }
-#even {
-  font-size: 30px;
-  color:#FF0000;
+#info{
+  font-size: 16px;
+  color:black;
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-}
-#mess{
-font-size: 20px;
-  color:#FF0000;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-}
-#add {
-  font-size: 30px;
-  color:#FF0000;
-  font-family: 'Rubik', sans-serif;
-  border-bottom: 10px solid;
-  width:300px;
-  height:40px;
-  font-weight: 500;
+  text-decoration: none;
+  font-weight: 400;
+
 }
 .button {
-  background-color: white;
+  background-color: #FF0000;
   border: solid #FF0000;
-  color: #FF0000;
+  color: white;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
@@ -70,6 +56,7 @@ font-size: 20px;
   font-weight: 500;
   margin: 4px 2px;
   cursor: pointer;
+  width: 10%;
 }
 .send {
   background-color: #FF0000;
@@ -87,7 +74,7 @@ font-size: 20px;
 .square {
     height: 1500px;
   width: 90%;
-  background-color: #1736EA;
+  background-color: yellow;
   margin-left: 5%;
   margin-top: -12%;
 }
@@ -96,7 +83,7 @@ font-size: 20px;
 text-orientation: mixed;
 font-family: 'Rubik', sans-serif;
   font-size: 12px;
-  color: #1736EA;
+  color: white;
   margin-top: 18%;
 }
 #fb {
@@ -104,7 +91,7 @@ font-family: 'Rubik', sans-serif;
 text-orientation: mixed;
 font-family: 'Rubik', sans-serif;
   font-size: 12px;
-  color: #1736EA;
+  color: white;
   margin-top: 14%;
   margin-right: 99%;
 }
@@ -131,7 +118,7 @@ li {
 
 li a {
   display: block;
-  color: #1736EA;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -161,14 +148,18 @@ h2 {
   width: 22%;
   padding: 10px;
   margin-top: -5%;
+  -ms-transform: rotate(-15deg); /* IE 9 */
+  -webkit-transform: rotate(-15deg); /* Safari 3-8 */
+  transform: rotate(-15deg);
+  line-height: 45px;
 }
 h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   font-size: 130px;
   text-transform: uppercase;
-  color: #1736EA;
+  color: yellow;
 }
 h3 {
    font-family: 'Oswald', sans-serif;
@@ -201,9 +192,4 @@ footer a {
 }
 footer a:hover {
   color: #276FBF;
-}
-@keyframes shake {
-  0% { transform: rotate(0.5deg); }
-  50% { transform: rotate(-0.5deg); }
-  100% { transform: rotate(0.5deg); }
 }
