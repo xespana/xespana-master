@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet");
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  display: grid;
+  background: #1736EA;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -5%;
+}
+.happy{
+ display: block;
+ height: 40% /* -- set image height -- */;
+ width: 45%/* -- set image width -- */;
+ background: url(images/rh2.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 8%;
+  margin-top: -90%;
+ }
+
+.happy:hover {
+ background: url(images/hott.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+   margin-left: 8%;
+ }
+ .dog{
+ display: block;
+ height: 50% /* -- set image height -- */;
+ width: 33%/* -- set image width -- */;
+ background: url(images/rd.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 60%;
+ }
+
+.dog:hover {
+ background: url(images/dog.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+   margin-left: 60%;
+ }
+.fest{
+ display: block;
+ height: 50% /* -- set image height -- */;
+ width: 33%/* -- set image width -- */;
+ background: url(images/blu.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 10%;
+  margin-top: -111%;
+ }
+
+.fest:hover {
+ background: url(images/man.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+   margin-left: 10%;
+ }
+ .pe{
+ display: block;
+ height: 50% /* -- set image height -- */;
+ width: 45%/* -- set image width -- */;
+ background: url(images/rs.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 50%;
+  margin-top: -30%;
+ }
+
+.pe:hover {
+ background: url(images/hotf.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 50%;
+ }
+.tru{
+ display: block;
+ height: 45% /* -- set image height -- */;
+ width: 40%/* -- set image width -- */;
+ background: url(images/tb.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 52%;
+  margin-top: -52%;
+ }
+
+.tru:hover {
+ background: url(images/truck.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 52%;
+ }
+.las{
+ display: block;
+ height: 45% /* -- set image height -- */;
+ width: 40%/* -- set image width -- */;
+ background: url(images/dogg.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 7%;
+  margin-top: -80%;
+ }
+
+.las:hover {
+ background: url(images/hot.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 7%;
+ }
+ .f{
+ display: block;
+ height: 30% /* -- set image height -- */;
+ width: 27%/* -- set image width -- */;
+ background: url(images/hotb.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 7%;
+  margin-top: -56%;
+ }
+
+.f:hover {
+ background: url(images/hotdd.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 7%;
+ }
+  .b{
+ display: block;
+ height: 30% /* -- set image height -- */;
+ width: 45%/* -- set image width -- */;
+ background: url(images/br.jpg);
+ background-repeat:no-repeat;
+ transition: .3s all; 
+  background-size: contain;
+  margin-left: 43%;
+  margin-top: -46%;
+ }
+
+.b:hover {
+ background: url(images/bite.jpg);
+ transform: translateY(-5px) /* -- animate up on hover -- */;
+ transition: .3s all; 
+  background-size: contain;
+  background-repeat:no-repeat;
+  margin-left: 43%;
+ }
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#sub {
+  font-size: 18px;
+  color:#FF0000;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  border-bottom: 4px solid;
+  width:155px;
+  font-weight: 500;
+  padding-top: 80px;
+}
+#sub2 {
+  font-size: 18px;
+  color:white;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  border-bottom: 4px solid;
+  width:380px;
+  font-weight: 500;
+}
+#info{
+  font-size: 16px;
+  color:black;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+
+}
+.button {
+  background-color: #FF0000;
+  border: solid #FF0000;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 10%;
+}
+.send {
+  background-color: #FF0000;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100px;
+  height:50px;
+}
+.square {
+    height: 3000px;
+  width: 90%;
+  background-color: yellow;
+  margin-left: 5%;
+  margin-top: -12%;
+}
+#ig {
+	writing-mode: vertical-rl;
+text-orientation: mixed;
+font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  color: white;
+  margin-top: 18%;
+}
+#fb {
+	writing-mode: vertical-rl;
+text-orientation: mixed;
+font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  color: white;
+  margin-top: 14%;
+  margin-right: 99%;
+}
+.content {
+	position:relative;
+}
+.content img {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    width:2%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+}
+
+li a:hover {
+  background-color: #FF0000;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 650px;
+  height: 110px;
+  margin-top: -10%;
+}
+h2 {
+	font-family: 'Rubik', sans-serif;
+	color:#FF0000;
+	text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+ margin: auto;
+  width: 22%;
+  padding: 10px;
+  margin-top: -5%;
+  -ms-transform: rotate(-15deg); /* IE 9 */
+  -webkit-transform: rotate(-15deg); /* Safari 3-8 */
+  transform: rotate(-15deg);
+  line-height: 45px;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 130px;
+  text-transform: uppercase;
+  color: yellow;
+}
+h3 {
+   font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  text-align: left;
+  font-size: 90px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 0.7em;
+}
+footer p {
+  letter-spacing: 3px;
+  color: #EF2F3C;
+}
+footer a {
+  color: #F6F4F3;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #276FBF;
+}

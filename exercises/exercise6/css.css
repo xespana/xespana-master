@@ -1,0 +1,331 @@
+body, html{
+  height: 100%;
+}
+body {
+  padding: 30px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shape {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+.shape2 {
+  border-radius:2px;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: -10px;
+   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+.shape3 {
+   height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: -20px;
+   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+.shape:hover {
+  width: 300px;
+  height: 300px;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+}
+.shape2:hover {
+  width: 300px;
+  height: 300px;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+}
+.shape3:hover {
+  width: 300px;
+  height: 300px;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+}
+
+.shape4 {
+  height: 300px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-bottom: 30px;
+   -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s, height 4s;
+}
+.shape4:hover {
+  width: 100px;
+  height: 600px;
+}
+.shape5 {
+  height: 300px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-bottom: 30px;
+     -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s, height 4s;
+}
+.shape6 {
+  height: 40px;
+  width: 110px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: -120px;
+  margin-bottom: 30px;
+}
+.shape5:hover {
+  width: 100px;
+  height: 600px;
+}
+.shape7 {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.shape8{
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  margin-left: -150px;
+  margin-bottom: 30px;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+}
+.shape9{
+  height: 150px;
+  width: 50px;
+  background-color: white;
+  margin-left: -130px;
+  margin-bottom: 30px;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+}
+.shape10{
+  height: 150px;
+  width: 50px;
+  background-color: white;
+  margin-left: 60px;
+  margin-bottom: 30px;
+   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+}
+.shape11{
+  height: 150px;
+  width: 10px;
+  background-color: black;
+  margin-left: 80px;
+  margin-bottom: 30px;
+   -webkit-animation-name: examplex; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: examplex;
+  animation-duration: 4s;
+animation-iteration-count: 10; 
+}
+.shape12{
+  height: 150px;
+  width: 10px;
+  background-color: black;
+  margin-left: 80px;
+  margin-bottom: 30px;
+     -webkit-animation-name: examplex; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: examplex;
+  animation-duration: 4s;
+animation-iteration-count: 10; 
+}
+.shape13{
+  height: 10px;
+  width: 100px;
+  background-color: black;
+  margin-left: -100px;
+  margin-bottom: 30px;
+     -webkit-animation-name: examplex; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: examplex;
+  animation-duration: 4s;
+animation-iteration-count: 10; 
+}
+.shape14{
+  height: 10px;
+  width: 30px;
+  background-color: black;
+  margin-left: -110px;
+  margin-bottom: -110px;
+     -webkit-animation-name: examplex; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: examplex;
+  animation-duration: 4s;
+animation-iteration-count: 10; 
+}
+.shape15{
+  height: 10px;
+  width: 30px;
+  background-color: black;
+  margin-left: 60px;
+  margin-bottom: -110px;
+     -webkit-animation-name: examplex; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: examplex;
+  animation-duration: 4s;
+animation-iteration-count: 10; 
+}
+.shape16{
+  height: 10px;
+  width: 30px;
+  background-color: black;
+  margin-left: -120px;
+  margin-bottom: 190px;
+     -webkit-animation-name: examplex; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: examplex;
+  animation-duration: 4s;
+animation-iteration-count: 10; 
+}
+.shape17{
+  height: 10px;
+  width: 30px;
+  background-color: black;
+  margin-left: 60px;
+  margin-bottom: 190px;
+     -webkit-animation-name: examplex; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+  animation-name: examplex;
+  animation-duration: 4s;
+animation-iteration-count: 10; 
+}
+.shape18 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.shape18:hover{
+background-color: blue;
+}
+.shape19 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 140px;
+  margin-left: -50px;
+}
+.shape19:hover{
+background-color: blue;
+}
+.shape20 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: -80px;
+  margin-left: -50px;
+}
+.shape20:hover{
+background-color: blue;
+}
+.shape21 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+.shape21:hover{
+background-color: blue;
+}
+.shape22 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 140px;
+  margin-left: 5px;
+}
+.shape22:hover{
+background-color: blue;
+}
+.shape23 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-left: -50px;
+}
+.shape23:hover{
+background-color: blue;
+}
+.shape24 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: -80px;
+  margin-left: -50px;
+}
+.shape24:hover{
+background-color: blue;
+}
+@-webkit-keyframes example {
+  from {background-color: white;}
+  to {background-color: red;}
+}
+@keyframes example {
+  from {background-color: white;}
+  to {background-color: red;}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes examplex {
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
+}
+
+/* Standard syntax */
+@keyframes examplex {
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue;}
+  75%  {background-color:green;}
+  100% {background-color:red;}
+}

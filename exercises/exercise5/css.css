@@ -1,0 +1,192 @@
+body, html{
+  height: 100%;
+}
+body {
+  padding: 30px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shape {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.shape2 {
+  border-radius:2px;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  margin-left: -10px;
+}
+.shape3 {
+   height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: -20px;
+}
+
+.shape4 {
+  height: 300px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.shape5 {
+  height: 300px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.shape6 {
+  height: 40px;
+  width: 110px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: -120px;
+  margin-bottom: 30px;
+}
+.shape7 {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.shape8{
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  margin-left: -150px;
+  margin-bottom: 30px;
+}
+.shape9{
+  height: 150px;
+  width: 50px;
+  background-color: white;
+  margin-left: -130px;
+  margin-bottom: 30px;
+}
+.shape10{
+  height: 150px;
+  width: 50px;
+  background-color: white;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.shape11{
+  height: 150px;
+  width: 10px;
+  background-color: black;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.shape12{
+  height: 150px;
+  width: 10px;
+  background-color: black;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+.shape13{
+  height: 10px;
+  width: 100px;
+  background-color: black;
+  margin-left: -100px;
+  margin-bottom: 30px;
+}
+.shape14{
+  height: 10px;
+  width: 30px;
+  background-color: black;
+  margin-left: -110px;
+  margin-bottom: -110px;
+}
+.shape15{
+  height: 10px;
+  width: 30px;
+  background-color: black;
+  margin-left: 60px;
+  margin-bottom: -110px;
+}
+.shape16{
+  height: 10px;
+  width: 30px;
+  background-color: black;
+  margin-left: -120px;
+  margin-bottom: 190px;
+}
+.shape17{
+  height: 10px;
+  width: 30px;
+  background-color: black;
+  margin-left: 60px;
+  margin-bottom: 190px;
+}
+.shape18 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.shape19 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 140px;
+  margin-left: -50px;
+}
+.shape20 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: -80px;
+  margin-left: -50px;
+}
+.shape21 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+.shape22 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 140px;
+  margin-left: 5px;
+}
+.shape23 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-left: -50px;
+}
+.shape24 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: -80px;
+  margin-left: -50px;
+}

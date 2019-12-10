@@ -1,0 +1,189 @@
+body {
+  background: black no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('images/back2.png');
+
+}
+
+body.test {
+  background-image: url('images/browns.jpg');
+  background-size: cover 70vw;
+}
+body.test2 {
+  background-image: url('images/tteal.jpg');
+  background-size: cover 70vw;
+}
+body.test3 {
+  background-image: url('images/purple.jpg');
+  background-size: cover 70vw;
+}
+body.test4 {
+  background-image: url('images/red.jpg');
+  background-size: cover 70vw;
+}
+body.test5 {
+  background-image: url('images/taur.jpg');
+  background-size: cover 70vw;
+}
+body.test6 {
+  background-image: url('images/yel.jpg');
+  background-size: cover 70vw;
+}
+body.test7 {
+  background-image: url('images/grey.jpg');
+  background-size: cover 70vw;
+}
+body.test8 {
+  background-image: url('images/leo.jpg');
+  background-size: cover 70vw;
+}
+body.test9 {
+  background-image: url('images/green2.jpg');
+  background-size: cover 70vw;
+}
+body.test10 {
+  background-image: url('images/blue.jpg');
+  background-size: cover 70vw;
+}
+body.test11 {
+  background-image: url('images/bur.jpg');
+  background-size: cover 70vw;
+}
+body.test12 {
+  background-image: url('images/sag.jpg');
+  background-size: cover 70vw;
+}
+
+#dateEnter {
+  color: white;
+  text-align: center;
+  margin-top: 380px;
+  line-height: 3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#dateEnter h1 {
+  font-size: 16px;
+ font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    margin-top: -30px;
+    margin-bottom:20px; 
+}
+span {
+  content: "\21E9";
+}
+
+#dateEnter select {
+  color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    font-weight:700;
+    letter-spacing: 4px;
+}
+
+img {
+  height: 30%;
+  width: 30%;
+  margin: 20px 0 30px 10px;
+}
+.image1 {
+  border:none;
+  margin-top: -130px;
+  float:center;
+  margin-bottom: -75px;
+}
+
+
+
+.zodiac h1 {
+  font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.1em;
+color:white;
+margin-bottom: -15px;
+font-weight: 600;
+}
+.zodiac h2{
+   font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 40px;
+text-align: center;
+letter-spacing:2px;
+color:white;
+font-weight: 600;
+
+}
+.symbol {
+  border:none;
+  height: 6%;
+  width: 6%;
+  margin: 20px 0 0px 0;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: left;
+  color:white;
+  font-size: 14px;
+  letter-spacing:2px;
+
+}
+#month {
+    width: 8%;
+    height: 50px;
+    font-size: 13pt;
+    padding: 20px 20px;
+    border: solid white;
+    border-radius: 4px;
+    color: white;
+    margin-right: 3px;
+}
+#day{
+    width: 8%;
+    height: 50px;
+    font-size: 13pt;
+    border: solid white;
+    border-radius: 4px;
+    color: white;
+    margin-right: 3px;
+    position: relative;
+}
+#submit {
+   background-color: #0038FF;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   letter-spacing: 4px;
+   margin-top: 40px;
+}
+
+
+footer {
+  color: #ccc;
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+}
+
+@media (max-width:400px) {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  
