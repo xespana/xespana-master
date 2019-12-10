@@ -7,8 +7,8 @@ body {
 }
 
 body.test {
-  background-image: url('images/brown.jpg');
-  background-size: cover 200vh;
+  background-image: url('images/browns.jpg');
+  background-size: cover 70vw;
 }
 body.test2 {
   background-image: url('images/tteal.jpg');
@@ -39,7 +39,7 @@ body.test8 {
   background-size: cover 70vw;
 }
 body.test9 {
-  background-image: url('images/green.jpg');
+  background-image: url('images/green2.jpg');
   background-size: cover 70vw;
 }
 body.test10 {
@@ -47,7 +47,7 @@ body.test10 {
   background-size: cover 70vw;
 }
 body.test11 {
-  background-image: url('images/maga.jpg');
+  background-image: url('images/bur.jpg');
   background-size: cover 70vw;
 }
 body.test12 {
