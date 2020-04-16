@@ -1,6 +1,7 @@
 body {
-  font-family: "Lato", sans-serif;
   background-color:#fb5605;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 500;
 }
 
 .sidenav {
@@ -93,5 +94,32 @@ top: 3800px;
 
  img {
   width:550px;
-  padding-left:80px;
+  padding-left:150px;
+  padding-top: 110px;
  }
+ h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  padding-left:100px;
+  line-height: 80px;
+ }
+ h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left:100px;
+  margin-top:100px;
+}
+
+ .class .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 10px;    
+        text-align: left;
+        top: 2%; /* Adjust this value to move the positioned div up and down */
+        font-family: Arial,sans-serif;
+        color: black;
+        width: 35%; /* Set the width of the positioned div */
+    }
