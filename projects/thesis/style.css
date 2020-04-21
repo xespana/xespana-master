@@ -127,3 +127,9 @@ top: 3800px;
 .images {
   position: absolute; 
 }
+video {
+  max-width: 50%;
+  padding-left: 5%;
+  padding-top: 8%;
+}
+
