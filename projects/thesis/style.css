@@ -83,15 +83,23 @@ height: 900px;
 left: 48.5%;
 top: 2900px;
  }
-
-.middle2{ 
+ .left3{ 
 background-color:#f9d059;
 position: absolute;
-width: 100%;
+width: 48.5%;
 height: 900px;
 left: 0px;
 top: 3800px;
  }
+.right3{ 
+background-color:#f9d059;
+position:absolute;
+width: 48.5%;
+height: 900px;
+left: 48.5%;
+top: 3800px;
+ }
+
 
  img {
   width:550px;
@@ -128,8 +136,15 @@ top: 3800px;
   position: absolute; 
 }
 video {
-  max-width: 50%;
+  max-width: 95%;
   padding-left: 5%;
-  padding-top: 8%;
+  padding-top: 15%;
+}
+.rectangle {
+  height: 650px;
+  width: 500px;
+  margin-left: 18%;
+  margin-top: 14.5%;
+  background-color: white;
 }
 
