@@ -263,5 +263,8 @@ video {
 .card:nth-child(even):hover .back {
   transform: rotateY(0deg);
 }
-
+a {
+   text-decoration: none;
+   color:black;
+}
 
