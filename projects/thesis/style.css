@@ -34,9 +34,9 @@ top: 1100px;
  }
 
 .middle{ 
-background-image: url('images/xe.jpeg');
+background-image: url('images/xe_s.gif');
 position: absolute;
-background-position: 0% 35%;
+background-position: -3% 30%;
 width: 100%;
 height: 900px;
 left: 0px;
@@ -313,10 +313,10 @@ ul.gallery li.ir2:hover {
   transform: rotate(0deg) scale(2);
 }
 ul.gallery li.ir3 {
-  -webkit-transform: rotate(144deg);
-  -moz-transform: rotate(144deg);
-  -o-transform: rotate(144deg);
-  transform: rotate(144deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 ul.gallery li.ir3:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
@@ -343,6 +343,67 @@ ul.gallery li.ir4:hover {
   -o-transform: rotate(0deg) scale(2);
   transform: rotate(0deg) scale(2);
   -webkit-transform-origin: left;
+}
+ul.gallery li.ir5 {
+  -webkit-transform: rotate(32deg);
+  -moz-transform: rotate(32deg);
+  -o-transform: rotate(32deg);
+  transform: rotate(32deg);
+}
+ul.gallery li.ir5:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 20;
+  -webkit-transform: rotate(0deg) scale(2);
+  -moz-transform: rotate(0deg) scale(2);
+  -o-transform: rotate(0deg) scale(2);
+  transform: rotate(0deg) scale(2);
+  -webkit-transform-origin: left;
+}
+ul.gallery li.ir6 {
+  -webkit-transform: rotate(13deg);
+  -moz-transform: rotate(13deg);
+  -o-transform: rotate(13deg);
+  transform: rotate(13deg);
+}
+ul.gallery li.ir6:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 20;
+  -webkit-transform: rotate(0deg) scale(2);
+  -moz-transform: rotate(0deg) scale(2);
+  -o-transform: rotate(0deg) scale(2);
+  transform: rotate(0deg) scale(2);
+}
+ul.gallery li.ir7 {
+  -webkit-transform: rotate(80deg);
+  -moz-transform: rotate(80deg);
+  -o-transform: rotate(80deg);
+  transform: rotate(80deg);
+}
+ul.gallery li.ir7:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 20;
+  -webkit-transform: rotate(0deg) scale(2);
+  -moz-transform: rotate(0deg) scale(2);
+  -o-transform: rotate(0deg) scale(2);
+  transform: rotate(0deg) scale(2);
+}
+ul.gallery li.ir8 {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+ul.gallery li.ir8:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 20;
+  -webkit-transform: rotate(0deg) scale(2);
+  -moz-transform: rotate(0deg) scale(2);
+  -o-transform: rotate(0deg) scale(2);
+  transform: rotate(0deg) scale(2);
 }
 ul.gallery li a img {
   float: left;
