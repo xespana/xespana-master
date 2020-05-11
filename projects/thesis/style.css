@@ -16,8 +16,9 @@ body {
 }
 
 .left{ 
-background-color: #ffcb05;
+ background-image: url('images/she.jpg');
 position: absolute;
+background-position: 80% 35%;
 width: 50%;
 height: 900px;
 left: 0%;
