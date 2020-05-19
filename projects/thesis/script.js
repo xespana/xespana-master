@@ -1,6 +1,5 @@
 // fallback: show controls if autoplay fails
 // (needed for Samsung Internet for Android, as of v6.4)
-
 window.addEventListener('load', async () => {
   let video = document.querySelector('video[muted][autoplay]');
   try {
@@ -9,3 +8,4 @@ window.addEventListener('load', async () => {
     video.controls = true;
   }
 });
+
