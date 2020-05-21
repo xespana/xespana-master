@@ -2,6 +2,7 @@ body {
   background-color:#fb5605;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 500;
+  height:3000px;
 }
 
 .main {
@@ -89,7 +90,7 @@ top: 0px;
 background-color:#FAFAFA;
 position: absolute;
 width: 100%;
-height: 2600px;
+height: 3000px;
 left: 0px;
 top: 0%;
  }
@@ -422,7 +423,7 @@ html {
 
 html,
 body {
-  height: 100%;
+  height: 400%;
 }
 
 body {
@@ -498,6 +499,7 @@ html {
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -581,6 +583,7 @@ html {
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -650,5 +653,4 @@ body {
   opacity: 0.75;
   text-align: center;
 }
-
 
