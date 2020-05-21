@@ -47,9 +47,9 @@ top: 700px;
  }
 
 .left{ 
- background-image: url('images/she.jpg');
+ background-image: linear-gradient(purple,pink);
 position: absolute;
-background-position: 80% 35%;
+background-position: 80% 5%;
 width: 50%;
 height: 900px;
 left: 0%;
@@ -449,3 +449,4 @@ ul.gallery li a img {
 mark {
   background-color:#ec008c;
 }
+
